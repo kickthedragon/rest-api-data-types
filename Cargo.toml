@@ -1,0 +1,9 @@
+[package]
+name = "rest-api-data-types"
+version = "0.1.0"
+authors = ["Eric Remigino <eric.remigino@gmail.com>"]
+
+[dependencies]
+rustc-serialize = "^0.3"
+chrono = { version = "^0.2", features = ["rustc-serialize"]}
+rest-api-data-utils = {path = "../rest-api-data-utils"}
